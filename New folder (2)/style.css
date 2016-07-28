@@ -1,0 +1,15 @@
+em{
+    color: #f00;
+}
+body blockquote em {
+    color: darkred
+    font-weight: bold;
+}
+blockquote em {
+    color: #000;
+    font-weight: bold;
+}
+em{
+    font-size: 24px.
+    color: #f00;
+}
