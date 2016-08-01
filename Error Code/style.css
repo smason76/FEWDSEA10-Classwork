@@ -1,0 +1,30 @@
+#notification {
+    color: blue;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.message {
+    color: green;
+    font-style: italic;
+}
+
+.success {
+    color: green;
+    font-size: 150px;
+}
+ul {
+padding: 0;
+    list-style: none;
+    
+}
+li {
+display: inline;
+}
+.bordered {
+border-left: 1px solid black;
+padding-left: 3px;
+}

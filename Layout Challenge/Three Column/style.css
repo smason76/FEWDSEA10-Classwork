@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.placeholder {
+    background-color: gray;
+    border: 2px solid #ccc;
+}
+
+/*
+.layout-2 header,
+.layout-2 footer {
+    height: 150px;
+}
+*/
+
+/*
+.layout-2 aside,
+.layout-2 section {
+    height: 150px;
+}
+*/
+
+/*
+.layout-2 header {
+    margin-bottom: 15px;
+}
+*/
+/*
+
+.layout-2 section {
+    width: 66%;
+    float: left;
+    margin-bottom: 15px;
+}
+*/
+/*
+
+.layout-2 aside {
+    width: 66%;
+    float: right;
+    margin-bottom: 15px;
+}
+*/
+
+/* layout 2 */
+
+.layout-2 footer {
+    clear: both;
+}
+
+.layout-2 header,
+.layout-2 footer {
+    height: 100px;
+}
+
+.layout-2 header {
+    margin-bottom: 10px;
+}
+
+.layout-2 .sidebar,
+.layout-2 section {
+    height: 300px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+
+.layout-2 .sidebar {
+    width: 16%;
+    float: left;
+
+}
+
+.layout-2 section {
+    width: 66%;
+    float: left;
+}

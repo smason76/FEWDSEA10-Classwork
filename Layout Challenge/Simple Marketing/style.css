@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+body {
+    max-width: 1255px;
+    margin: 160px 120px 73px 120px;
+    text-align: center;
+    }
+*/
+
+/*fixed width body tag*/
+body {
+    width: 1255px;
+    position: absolute;
+    left: 50%;
+    margin-left: -733px;
+}
+.bcolor {
+    background-color: lightgray;
+    border: 3px solid darkgrey;
+    height: 100%;
+    width: 100%
+}
+
+
+/* layout 3 */
+
+header, footer {
+    height: 210px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header {
+    padding-bottom: 15px;
+    padding-top: 15px;
+   }
+
+footer {
+    padding-bottom: 15px;
+    padding-top: 15px;
+   }
+
+.leftArticle {
+    width: 50%;
+    float: left;
+    overflow: auto;
+    height: 530px;
+    padding: 15px;
+    }
+
+.rightArticle {
+    width: 50%;
+    float: right;
+    overflow: auto;
+    height: 530px;
+    padding: 15px;
+}
+
+blockquote {
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.ad1 {
+    width: 33.333%;
+    float: left;
+    text-align: left;
+    overflow: auto;
+    padding: 15px;
+    display: inline;
+    height: 250px;
+    
+}
+
+.ad2 {
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    overflow: auto;
+    height: 250px;
+    padding: 15px;
+    display: inline;
+}
+
+.ad3 {
+    width: 33.333%;
+    float: left;
+    text-align: right;
+    overflow: auto;
+    height: 250px;
+    padding: 15px;
+}

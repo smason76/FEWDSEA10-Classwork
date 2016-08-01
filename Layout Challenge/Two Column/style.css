@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.placeholder {
+    background-color: gray;
+    border: 2px solid #ccc;
+}
+
+.layout-1 header,
+.layout-1 footer {
+    height: 150px;
+}
+
+.layout-1 aside,
+.layout-1 section {
+    height: 150px;
+}
+.layout-1 header {
+    margin-bottom: 15px;
+}
+
+.layout-1 section {
+    width: 66%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.layout-1 aside {
+    width: 66%;
+    float: right;
+    margin-bottom: 15px;
+}
+.layout-1 footer{
+    clear: both;
+}
