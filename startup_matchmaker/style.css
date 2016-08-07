@@ -1,0 +1,183 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+
+/* Box Model Hack */
+
+* {
+    -moz-box-sizing: border-box;
+    /* Firexfox */
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box;
+    /* IE */
+}
+
+
+/* Clear fix hack */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px;
+    /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0;
+    /* note the padding around a left floated image */
+}
+
+.third {
+    width: calc(100%/3);
+    padding: 5px;
+    margin-top: 3%;
+    margin-bottom: 9%;
+    border-right: 1px solid #c6c6c6;
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    color: #000;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: Helvetica, Arial, sans-serif;
+}
+p{
+    margin-bottom: 10px;
+}
+h3 {
+    font: bold 28px Times New Roman;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+header, footer {
+    color: white;
+    background-color: black;
+}
+header {
+    background-color: black;
+    padding: calc(17/800 * 100%);
+/*    margin: 5px;*/
+}
+nav ul{
+    text-align: right;
+}
+.tagline {
+    font: bold italic 30px 'Times New Roman', serif;
+    border-top: 3px solid #f8ff00;
+    padding: calc(15/800 * 100%) 0;
+    margin: 0;
+    background-color: #c6c6c6;
+    text-align: center;
+}
+.tagline del{
+    color: #666;
+}
+.tagline em {
+    border-bottom: 2px solid #f8ff00;
+}
+
+ul {
+    list-style: none;
+}
+
+.hero {
+    padding: 20px;
+    background-size: 100% auto;
+    background: url(coworking.jpg) no-repeat center;
+}
+
+.hero section {
+    width: 37.5%;
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px #000;
+    padding: 5%;
+}
+
+footer {
+    padding: 1/25%;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+header h1 {
+    color: #f8ff00;
+    font: bold 32px Times New Roman, serif;
+    margin-bottom: calc(22/800 * 100%);
+}
+
+.bold {
+    text-transform: uppercase;
+    font-weight: bold;
+    transform: scale(1, 5.5);
+}
+
+nav li {
+    display: inline;
+    margin-right: 3%;
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+.hero section h2 {
+    font: 900 20px helvetica;
+    margin-bottom: 5%;
+}
+
+.hero section p {
+    margin-bottom: 5%;
+}
+
+.button {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 900 15px helvetica;
+    color: #000;
+    padding: 6%;
+    border-bottom: 3px solid #666;
+    border-radius: 5px;
+    background-color: #c6c6c6; 
+}
+.yellow-btn{
+    border-bottom: 3px solid #666;
+    background-color: #f8ff00;
+}
