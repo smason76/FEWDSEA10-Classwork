@@ -1,0 +1,11 @@
+.question {
+    text-align: left;
+    font-size: 4em;
+    color: navy;
+}
+
+.answer {
+    text-align: left;
+    font-size: 2.5em;
+    color: rebeccapurple;
+}

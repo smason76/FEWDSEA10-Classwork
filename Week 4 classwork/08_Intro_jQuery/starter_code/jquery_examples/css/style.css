@@ -1,0 +1,26 @@
+.slideToggle h3{
+  cursor: pointer;
+}
+
+#darth{
+  display: none;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ccc;
+}
+
+.slideUpSlideDown button{
+  display: block;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.red{
+  display: none;
+  background-color: red;
+}

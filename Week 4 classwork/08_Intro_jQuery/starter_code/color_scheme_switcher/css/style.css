@@ -1,0 +1,49 @@
+body {
+  margin: 3em;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  transition: background 1s, color 1s;
+}
+
+h1 {
+  line-height: 1.25;
+  margin: 2em 0 0;
+  clear: both;
+}
+p {
+  margin: .5em 0;
+}
+
+#switcher {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.switcher-button {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 30px;
+  border: 3px solid black;
+  box-shadow: -2px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+#grayButton {
+  background: gray;
+}
+#whiteButton {
+  background: white;
+}
+
+#blueButton{
+  background: blue;
+  border-color: yellow;
+}
+
+#pinkButton{
+  background: pink;
+  border-color: green;
+}

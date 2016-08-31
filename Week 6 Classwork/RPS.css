@@ -1,0 +1,174 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    width: 90%%;
+    border-left: 5px solid navy;
+    border-right: 5px solid navy;
+    padding: 5%;
+    /*    margin: 1% 10%;*/
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+button {
+    background: rgba(0,0,0,1);
+    color: white;
+
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    width: 33%;
+}
+
+#score {
+    border: 5px solid navy;
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+}
+
+#computerScore {
+    width: 49.5%;
+    float: left;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border-right: 2.3px solid navy;
+}
+
+#humanScore {
+    width: 49.5%;
+    float: left;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    border-left: 2.3px solid navy;
+}
+
+div {
+    width: 100%;
+    display: inline-block;
+}
+
+#rock {
+    width: 30%;
+    border: 5px solid navy;
+}
+
+#paper {
+    width: 30%;
+    border: 5px solid navy;
+}
+
+#scissors {
+    width: 30%;
+    border: 5px solid navy;
+}
+
+
+/* unvisited link */
+
+#rock:link {
+    color: #FF0000;
+}
+
+
+/* visited link */
+
+#rock:visited {
+    color: #00FF00;
+}
+
+
+/* mouse over link */
+
+#rock:hover {
+    color: #FF00FF;
+}
+
+
+/* selected link */
+
+#rock:active {
+    color: #0000FF;
+}
+
+
+/* unvisited link */
+
+#paper:link {
+    color: #FF0000;
+}
+
+
+/* visited link */
+
+#paper:visited {
+    color: #00FF00;
+}
+
+
+/* mouse over link */
+
+#paper:hover {
+    color: #FF00FF;
+}
+
+
+/* selected link */
+
+#paper:active {
+    color: #0000FF;
+}
+
+
+/* unvisited link */
+
+#scissors:link {
+    color: #FF0000;
+}
+
+
+/* visited link */
+
+#scissors:visited {
+    color: #00FF00;
+}
+
+
+/* mouse over link */
+
+#scissors:hover {
+    color: #FF00FF;
+}
+
+
+/* selected link */
+
+#scissors:active {
+    color: #0000FF;
+}
+
+footer {
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5%;
+}
